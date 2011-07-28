@@ -1,0 +1,16 @@
+h1. Spring @Value Annotation test
+
+Purpose of this simple application is to test if Spring @Value annotation can be used to inject values into servlets that are managed by servlet container.
+
+h2. Installation
+
+* clone to your local disk
+* build with maven: @mvn package@
+* deploy @deploy_this.war@ file into tomcat
+* open browser and navigate to "http://localhost:8080/deploy_this/":http://localhost:8080/deploy_this/
+
+You should see a simple HTML page with two links: @foo@ and @bar@
+
+Clicking @foo@ will display content of "inject.properties":https://github.com/lukas-vlcek/SpringValueAnnotationTest/blob/master/src/main/webapp/WEB-INF/inject.properties file.
+
+Clicking @bar@ results into "this exception":https://gist.github.com/1111456. Now, I would like to know how to make lines 16 and 17 in "Bar":https://github.com/lukas-vlcek/SpringValueAnnotationTest/blob/master/src/main/java/org/test/springframework/inject/Bar.java servlet working correctly (if it is possible at all).
