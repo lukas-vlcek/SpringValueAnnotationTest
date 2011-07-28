@@ -1,0 +1,3 @@
+h1. Spring @Value Annotation test
+
+Purpose of this simple application is to test if Spring @Value annotation can be used to inject values into servlets that are managed by servlet container.
