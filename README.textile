@@ -14,3 +14,7 @@ You should see a simple HTML page with two links: @foo@ and @bar@
 Clicking @foo@ will display content of "inject.properties":https://github.com/lukas-vlcek/SpringValueAnnotationTest/blob/master/src/main/webapp/WEB-INF/inject.properties file.
 
 Clicking @bar@ results into "this exception":https://gist.github.com/1111456. Now, I would like to know how to make lines 16 and 17 in "Bar":https://github.com/lukas-vlcek/SpringValueAnnotationTest/blob/master/src/main/java/org/test/springframework/inject/Bar.java servlet working correctly (if it is possible at all).
+
+h2. Spring Forum
+
+I created a new "thread":http://forum.springsource.org/showthread.php?112716-Using-Value-to-inject-primitive-value-from-property-file-into-servlet-possible in Spring Community Forum. If you want to comment, consider doing it there...
