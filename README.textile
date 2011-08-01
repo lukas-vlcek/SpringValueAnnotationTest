@@ -18,3 +18,7 @@ Clicking @bar@ results into "this exception":https://gist.github.com/1111456. No
 h2. Spring Forum
 
 I created a new "thread":http://forum.springsource.org/showthread.php?112716-Using-Value-to-inject-primitive-value-from-property-file-into-servlet-possible in Spring Community Forum. If you want to add comments, consider doing it there...
+
+h2. Spring JIRA Issue
+
+I opened a bug in JIRA for this, you can follow it here: https://jira.springsource.org/browse/SPR-8574
