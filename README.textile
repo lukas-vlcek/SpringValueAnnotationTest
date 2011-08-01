@@ -21,4 +21,4 @@ I created a new "thread":http://forum.springsource.org/showthread.php?112716-Usi
 
 h2. Spring JIRA Issue
 
-I opened a bug in JIRA for this, you can follow it here: https://jira.springsource.org/browse/SPR-8574
+I opened a bug in JIRA for this, you can follow it here: "https://jira.springsource.org/browse/SPR-8574":https://jira.springsource.org/browse/SPR-8574
