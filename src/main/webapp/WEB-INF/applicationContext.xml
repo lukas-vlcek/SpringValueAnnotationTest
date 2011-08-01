@@ -11,4 +11,6 @@
 
     <util:properties id="values" location="WEB-INF/inject.properties" />
 
+    <bean id="configBean" class="org.test.springframework.bean.ConfigBean" />
+
 </beans>

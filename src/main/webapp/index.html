@@ -6,9 +6,18 @@
 </head>
 <body>
     Select one option:
-    <ul>
-        <li><a href="./foo">foo</a> (works)</li>
-        <li><a href="./bar">bar</a> (does not)</li>
-    </ul>
+    <p>
+        Injecting directly into servlet
+        <ul>
+            <li><a href="./foo">foo</a> (works)</li>
+            <li><a href="./bar">bar</a> (does not)</li>
+        </ul>
+    </p>
+    <p>
+        Injecting into bean and then this bean into servlet
+        <ul>
+            <li><a href="./lorem">lorem</a> (works)</li>
+        </ul>
+    </p>
 </body>
 </html>

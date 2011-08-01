@@ -25,6 +25,10 @@
         <servlet-name>bar</servlet-name>
         <servlet-class>org.test.springframework.inject.Bar</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>lorem</servlet-name>
+        <servlet-class>org.test.springframework.inject.Lorem</servlet-class>
+    </servlet>
 
     <servlet-mapping>
 		<servlet-name>foo</servlet-name>
@@ -33,6 +37,10 @@
     <servlet-mapping>
 		<servlet-name>bar</servlet-name>
 		<url-pattern>/bar</url-pattern>
+	</servlet-mapping>
+    <servlet-mapping>
+		<servlet-name>lorem</servlet-name>
+		<url-pattern>/lorem</url-pattern>
 	</servlet-mapping>
 
 	<welcome-file-list>
